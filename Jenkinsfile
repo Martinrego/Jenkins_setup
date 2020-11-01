@@ -17,7 +17,7 @@ pipeline {
 
         stage('automation repo') {
           steps {
-            git(url: 'https://github.com/Martinrego/EyeAutomation', branch: 'Master', poll: true)
+            git(url: 'https://github.com/Martinrego/EyeAutomation', branch: 'master', poll: true)
           }
         }
 
