@@ -23,7 +23,7 @@ pipeline {
 
         stage('Maven QA build') {
           steps {
-            bat 'mvn test -DEnvironment=QAt'
+            bat 'mvn test -DEnvironment=QA'
           }
         }
 
