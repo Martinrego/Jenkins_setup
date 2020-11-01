@@ -31,6 +31,9 @@ pipeline {
     }
 
     stage('certify') {
+      when {
+        branch 'master'
+      }
       steps {
         echo 'QA need to certify'
       }
